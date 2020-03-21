@@ -3,11 +3,11 @@ source 'https://rubygems.org'
 group :development, :test do
   gem 'rspec'
   gem 'pact', path: '../../'
-  gem 'pact_broker-client'
+  gem 'pact_broker-client', '>= 0.0.6'
   gem 'pry'
 end
 
 gem 'rake'
 gem 'rack', '~>1.5.2'
-gem 'json', '~>1.6.8'
+gem 'json', '~> 2.3.0'
 gem 'httparty'

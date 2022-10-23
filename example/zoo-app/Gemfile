@@ -8,6 +8,6 @@ group :development, :test do
 end
 
 gem 'rake'
-gem 'rack', '~>1.5.2'
+gem 'rack', '~> 3.0.0'
 gem 'json', '~>1.6.8'
 gem 'httparty'

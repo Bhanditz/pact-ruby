@@ -6,9 +6,9 @@ group :development, :test do
   gem 'pry'
 end
 
-gem 'rake'
-gem 'rack', '~> 2.0'
-gem 'json', '~>1.8'
+gem 'rake', '>= 12.3.3'
+gem 'rack', '~> 3.0', '>= 3.0.0'
+gem 'json', '~> 2.3', '>= 2.3.0'
 gem 'sqlite3'
 gem 'sequel'
-gem 'sinatra'
+gem 'sinatra', '>= 2.2.3'
